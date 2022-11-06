@@ -1,0 +1,264 @@
+*{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+  
+  #circularcursor {
+    background-color: transparent;
+    border:3px solid rgb(0, 0, 0);    
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    position: absolute;
+    z-index: 1;
+  }
+
+
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(19, 12, 12);
+    font-size: 20px;
+
+}
+
+.navbar{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+nav{
+    text-align: right;
+    flex: 1;
+}
+
+nav ul li{
+    list-style: none;
+    display:  inline-block;
+    margin-left: 60px;
+}
+
+
+.topbar{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.container {
+    margin-top: 4rem;
+}
+
+.hello {
+    font-family: Inconsolata,monospace;
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+.name {
+    font-family: Montserrat,sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.over-image{
+    text-align: center;
+}
+
+.image{
+    padding-left: 35%;
+}
+
+.para{
+    font-size: 2rem;
+}
+
+.resume{
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: #000000;
+    margin-left: 43.5%;
+    color: white;
+
+}
+
+hr {
+    height: 5px;
+    background-image: url(./images/divider.svg);
+    background-repeat: repeat-x;
+    background-position: left center;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: 20px;
+}
+
+.charu{
+    font-size: 2.0rem;
+    padding-left: 100px;
+
+}
+
+.sarita{
+    font-size: 2.9rem;
+    padding-left: 100px;
+   
+}
+
+.raju{
+    padding-left: 100px;
+}
+
+.ramesh{
+    font-size: 1.5rem;
+}
+
+.anjali{
+    padding-left: 500px;
+}
+
+.anjali:hover{
+    transform: scale(1.08);
+    transition: 1s;
+    cursor: pointer;
+    
+}
+
+.daksh{
+    padding-left: 8%;
+    
+}
+.card {
+    overflow: hidden;
+  }
+
+  .card,
+  img {
+    transition: all ease 0.4s;
+    cursor: pointer;
+  }
+
+  .picture:hover {
+    transform: scale(1.1);
+  }
+  
+  .photo-samples:hover {
+    transform: scale(1.19);
+  }
+  
+  .gallery-top div{
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1rem;
+  }
+
+
+
+
+
+
+  .adhira {
+    width: 300px;
+    height: 280px;
+    padding: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .adhira * {
+    transition: 0.3s ease all;
+  }
+  
+  .adhira img {
+    margin: 0;
+    width: 300px;
+    height: 224px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .adhira h3 {
+    margin: 0;
+    padding: 12px 12px 48px;
+    line-height: 32px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .adhira .focus-content {
+    display: block;
+    padding: 8px 12px;
+  }
+  
+  .adhira p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .adhira:hover img, .adhira:focus-within img {
+    margin-top: -80px;
+  }
+  
+  .adhira:hover h3, .adhira:focus-within h3 {
+    padding: 8px 12px 0;
+  }
+
+  .dhoop{
+      text-align: center;
+  }
+
+
+  .aryan{
+      width: 50px;
+      height: 40px;
+  }
+
+  .tejvir {
+    transition-duration: 0.4s;
+  }
+  
+  .tejvir:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+  .akshat{
+      text-align: center;
+  }
+
+  .almirah{
+      text-align: center;
+  }
+
+  .apple{
+      width: 570px;
+      height: 280px;
+      border-radius: 10%;
+  }
+
+  .apple:hover{
+      transform: scale(1.10);
+      transition: 0.8s;
+  }
+
+  .notebook:hover{
+    border-bottom: rgb(161, 9, 9) 2px solid;
+}
+
+.phalna{
+    background-image: cover;
+    background-size: cover;
+}
+
+.real{
+    margin-left: 15%;
+    background-size: cover;
+}
